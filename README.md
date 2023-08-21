@@ -35,7 +35,7 @@ For a quick and easy installation we using **Docker**, so make sure you have Doc
 Run the following command in the terminal of the repository :
 
 ```bash
-docker compose --build -d
+docker compose up -d --build
 ```
 
 > When containerizing the application, a superuser is created.
@@ -76,22 +76,20 @@ Tokens lifetime :
 
 Since our application is containerized, when you update the application, you are gonna have to rebuild the Docker container to see the effective updates.
 
-You can rebuild entirely the container by running the following command in the terminal of the repository :
+You can rebuild the container by running the following command in the terminal of the repository :
 
 ```bash
-docker compose --build -d
+docker compose -d --build
 ```
 
-Or you can rebuild a specific service (back-end or front-end) by running the following command in the terminal of the repository :
+## Stop the container
 
-- Back-end
+You can stop the container by running the following command in the terminal of the repository :
 
-    ```bash
-    docker compose --build back -d
-    ```
+```bash
+docker compose down
+```
 
-- Front-end
-
-    ```bash
-    docker compose --build front -d
-    ```
+> When stopping the container, our application is not accessible anymore.
+>
+> To access the application again, you are gonna have to re-containerize it.
