@@ -80,7 +80,7 @@ You can rebuild the container by running the following command in the terminal o
 
 ```bash
 # rebuild the container
-docker compose -d --build
+docker compose up -d --build
 # remove old images
 docker image prune
 ```
