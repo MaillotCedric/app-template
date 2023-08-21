@@ -30,7 +30,7 @@ For a quick and easy installation we using **Docker**, so make sure you have Doc
 
 > [How to install and use Docker](https://docs.docker.com/)
 
-### Containerizing our application
+### Containerize the application
 
 Run the following command in the terminal of the repository :
 
