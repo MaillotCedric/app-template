@@ -79,7 +79,10 @@ Since our application is containerized, when you update the application, you are
 You can rebuild the container by running the following command in the terminal of the repository :
 
 ```bash
+# rebuild the container
 docker compose -d --build
+# remove old images
+docker image prune
 ```
 
 ## Stop the container
