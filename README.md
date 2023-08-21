@@ -90,9 +90,15 @@ docker image prune
 You can stop the container by running the following command in the terminal of the repository :
 
 ```bash
-docker compose down
+docker compose stop
 ```
 
-> When stopping the container, our application is not accessible anymore.
+> When stopping the container, the application is not accessible anymore.
 >
-> To access the application again, you are gonna have to re-containerize it.
+> To access the application again, you are gonna have to restart the container.
+
+You can restart the container by running the following command in the terminal of the repository :
+
+```bash
+docker compose start
+```
