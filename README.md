@@ -50,7 +50,7 @@ docker compose up -d --build
 
 Now that we have our container up and running, we can easily access our application.
 
-To access the **back-end** and start playing with the available API (see *API REST* section below), open your favorite browser to http://localhost:8000 
+To access the **back-end** and start playing with the available API (see *API REST* section below), open your favorite browser to http://localhost:8000
 
 To access the **front-end** of our application, open your favorite browser to http://localhost:5173
 
