@@ -87,7 +87,7 @@ docker image prune
 
 ## Stop the container
 
-You can stop the container by running the following command in the terminal of the repository :
+You can stop the container by running the following commands in the terminal of the repository :
 
 ```bash
 docker compose down
