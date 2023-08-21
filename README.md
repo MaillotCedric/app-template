@@ -76,7 +76,7 @@ Tokens lifetime :
 
 Since our application is containerized, when you update the application, you are gonna have to rebuild the Docker container to see the effective updates.
 
-You can rebuild the container by running the following command in the terminal of the repository :
+You can rebuild the container by running the following commands in the terminal of the repository :
 
 ```bash
 # rebuild the container
@@ -87,7 +87,7 @@ docker image prune
 
 ## Stop the container
 
-You can stop the container by running the following commands in the terminal of the repository :
+You can stop the container by running the following command in the terminal of the repository :
 
 ```bash
 docker compose down
