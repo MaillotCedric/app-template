@@ -20,6 +20,8 @@ const vuetify = createVuetify({
     directives,
 })
 
+// In production, replace by the domain name serving the API
+// e.g. axios.defaults.baseURL = "https://my-web-app.azurewebsites.net/"
 axios.defaults.baseURL = "http://localhost:8000"
 
 app.use(createPinia())
